@@ -20,3 +20,18 @@ extension UIColor {
     static let mainTextColor = UIColor(named: "mainText")!
     static let blackOverlay = UIColor(named: "blackOverlay")!
 }
+
+extension UIView {
+    func rotateView(by radians: CGFloat = (-CGFloat.pi/2)) {
+        self.transform = CGAffineTransform(rotationAngle: radians)
+    }
+    
+    func addCornerRadius(_ radius: CGFloat = 4) {
+        self.layer.cornerRadius = radius
+    }
+    
+    func addBorder(_ width: CGFloat = 1, color: UIColor = .borderHighlightGray) {
+        self.layer.borderColor = color.cgColor
+        self.layer.borderWidth = width
+    }
+}

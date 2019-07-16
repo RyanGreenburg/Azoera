@@ -43,7 +43,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Nu6-9E-t18" userLabel="Text Field Stack View">
                                         <rect key="frame" x="136" y="0.0" width="255" height="168"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KY9-6h-UED">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KY9-6h-UED" customClass="RGTextField" customModule="Azoera" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="255" height="46.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="BgF-9q-TE2"/>
@@ -52,13 +52,13 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qin-vU-7hr">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qin-vU-7hr" customClass="RGTextField" customModule="Azoera" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="60.5" width="255" height="47"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9U-84-282">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9U-84-282" customClass="RGTextField" customModule="Azoera" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="121.5" width="255" height="46.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -110,7 +110,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nww-GU-fh9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nww-GU-fh9" customClass="RGButton" customModule="Azoera" customModuleProvider="target">
                                 <rect key="frame" x="136" y="548" width="199" height="48"/>
                                 <state key="normal" title="(done)"/>
                                 <connections>
@@ -143,7 +143,7 @@
                     <connections>
                         <outlet property="comfirmPasswordTextField" destination="O9U-84-282" id="GJ1-y4-0Sh"/>
                         <outlet property="doneButton" destination="Nww-GU-fh9" id="sti-bO-oES"/>
-                        <outlet property="emailTextField" destination="KY9-6h-UED" id="aJc-8R-wsX"/>
+                        <outlet property="email" destination="KY9-6h-UED" id="TkM-5u-dgi"/>
                         <outlet property="faqButton" destination="6Dg-TR-GFV" id="uw4-AR-K0g"/>
                         <outlet property="helpButton" destination="iZg-wA-S2G" id="nHC-wY-sBh"/>
                         <outlet property="loginButton" destination="Dk8-aH-zpk" id="XJr-mr-Fop"/>

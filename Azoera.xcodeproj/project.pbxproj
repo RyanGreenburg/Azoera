@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6267319F22DCF2F10031C145 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267319E22DCF2F10031C145 /* LogInViewController.swift */; };
 		626731A122DCF9AF0031C145 /* RGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626731A022DCF9AF0031C145 /* RGTextField.swift */; };
+		626731A322DD0CA30031C145 /* RGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626731A222DD0CA30031C145 /* RGButton.swift */; };
 		F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */; };
 		F73DEEA9223AF4550023C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEA7223AF4550023C6C6 /* Main.storyboard */; };
 		F73DEEAB223AF4570023C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEAA223AF4570023C6C6 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		6267319E22DCF2F10031C145 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		626731A022DCF9AF0031C145 /* RGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGTextField.swift; sourceTree = "<group>"; };
+		626731A222DD0CA30031C145 /* RGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGButton.swift; sourceTree = "<group>"; };
 		F73DEEA0223AF4550023C6C6 /* Azoera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azoera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73DEEA8223AF4550023C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				F763B96B2252693E005697E5 /* StyleGuide.swift */,
 				626731A022DCF9AF0031C145 /* RGTextField.swift */,
 				6267319E22DCF2F10031C145 /* LogInViewController.swift */,
+				626731A222DD0CA30031C145 /* RGButton.swift */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */,
 				F763B96C2252693E005697E5 /* StyleGuide.swift in Sources */,
+				626731A322DD0CA30031C145 /* RGButton.swift in Sources */,
 				626731A122DCF9AF0031C145 /* RGTextField.swift in Sources */,
 				6267319F22DCF2F10031C145 /* LogInViewController.swift in Sources */,
 			);

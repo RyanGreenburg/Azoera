@@ -16,9 +16,9 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var comfirmPasswordTextField: UITextField!
+    @IBOutlet weak var email: RGTextField!
+    @IBOutlet weak var passwordTextField: RGTextField!
+    @IBOutlet weak var comfirmPasswordTextField: RGTextField!
     @IBOutlet weak var helpButton: UIButton!
     @IBOutlet weak var faqButton: UIButton!
     @IBOutlet weak var doneButton: UIButton!
@@ -28,8 +28,7 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         signUpButton.rotateView()
         loginButton.rotateView()
-        self.view.backgroundColor = .black
-        
+        self.view.backgroundColor = .darkGray
     }
     
     // MARK: - Actions
